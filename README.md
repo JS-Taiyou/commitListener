@@ -1,15 +1,19 @@
-# Elysia with Bun runtime
+# Commit listener
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
+This is a simple commit listener that listens to commits clients requests to check and update a given svn branch
+
+This depends on the bun runtime being installed, if you don't have it installed, you can install it by running:
+
 ```bash
-bun create elysia ./elysia-example
+curl -fsSL https://bun.sh/install | bash
 ```
 
-## Development
-To start the development server run:
+Once installed, you can install the dependencies and run the server by running:
+## Usage
+
 ```bash
-bun run dev
+bun install
+bun dev
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+
