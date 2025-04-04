@@ -1,6 +1,6 @@
 # Commit listener
 
-This is a simple commit listener that listens to commits clients requests to check and update a given svn branch
+This is a simple Elysia.js proyect that listens to requests from clients to check and update a given svn branch
 
 This depends on the bun runtime being installed, if you don't have it installed, you can install it by running:
 
