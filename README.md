@@ -2,7 +2,7 @@
 
 This is a simple Elysia.js proyect that listens to requests from clients to check and update a given svn branch
 
-This depends on the bun runtime being installed, if you don't have it installed, you can install it by running:
+This depends on the bun runtime, if you don't have it installed, you can install it by running:
 
 ```bash
 curl -fsSL https://bun.sh/install | bash
